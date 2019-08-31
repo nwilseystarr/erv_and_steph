@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-scroll';
 import './style.css';
-import logo from '../../logo.png';
 
 export class Navbar extends Component {
     render() {
@@ -9,7 +8,10 @@ export class Navbar extends Component {
             <div>
                         <nav className="navbar navbar-expand-md navbar-light fixed-top border-bottom p-1 pr-3">
                         <a className="navbar-brand py-0" href="/">
-                            <img src={logo} width="70" height="70" className="d-inline-block align-top" alt="S&amp;E" />
+                        <div className="sectionTitle">
+                            Erv & Steph
+                </div>
+                            {/* <img src={logo} width="70" height="70" className="d-inline-block align-top" alt="S&amp;E" /> */}
                         </a>
                         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                             <ul className="navbar-nav ml-2">

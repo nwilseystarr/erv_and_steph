@@ -15,7 +15,7 @@ class EventWedding extends Component {
                 </div>
                 <div className="row">
                     <div className="col">
-                        <div className="info">
+                        <div className="infoText">
                             Feb 29, 2020
                     <br />
                             6:00 PM
@@ -26,7 +26,7 @@ class EventWedding extends Component {
                     </div>
                     <div className="col">
                         <div className="googleMap">
-                        <img src={googleMap} alt=" " />
+                            <img src={googleMap} alt=" " />
                         </div>
                     </div>
                 </div>

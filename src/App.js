@@ -2,14 +2,17 @@ import React, { Component } from 'react';
 import Navbar from './components/Navbar';
 import './App.css';
 import Carousel from './components/Carousel';
+import image2 from './components/Carousel/image2.png';
 import Title from './components/Title';
 import EventWedding from './components/EventWedding';
 import Registry from './components/Registry';
 import WeddingPartyWrapper from './components/WeddingPartyWrapper';
 import WeddingParty from './components/WeddingParty';
+import WeddingParty2 from './components/WeddingParty2';
 import stephPeople from './stephPeople';
 import ervPeople from './ervPeople';
-import logo from './logo.png';
+import Media from "react-media";
+// import logo from './logo.png';
 
 class App extends Component {
   constructor(props) {
@@ -18,17 +21,29 @@ class App extends Component {
       stephPeople,
       ervPeople
     }
-  }
+  };
+
   render() {
     return (
       <div className="App">
         <Navbar />
-        <img className="marginLogo" src={logo} alt="Logo" />
-        <Carousel />
+        {/* <img className="marginLogo" src={logo} alt="Logo" /> */}
+        <Media query="(max-width: 500px)">
+          {matches =>
+            matches ? (
+              <div className="col-md-3 carImage">
+                <img src={image2} alt=" " />
+              </div>
+            ) : (
+                <Carousel className="carousel" />
+              )
+          }
+        </Media>
         <Title />
         <div className="details"> <EventWedding />  </div>
         <div className="registry"> <Registry /></div>
-        <WeddingPartyWrapper>
+        <WeddingParty2></WeddingParty2>
+        {/* <WeddingPartyWrapper>
           <div className="row justify-content-md-center weddingParty">
             <div className="col">
               {this.state.stephPeople.map(stephPeople => (
@@ -49,7 +64,7 @@ class App extends Component {
               ))}
             </div>
           </div>
-        </WeddingPartyWrapper>
+        </WeddingPartyWrapper> */}
       </div>
     );
   }

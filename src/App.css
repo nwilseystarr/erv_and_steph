@@ -1,37 +1,26 @@
 .App {
   text-align: center;
+} 
+
+.carousel {
+  margin-top: 10%;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.carImage {
+  margin-top: 25%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.marginLogo{
-  margin-top: 7%;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-
-/* @font-face {
+@font-face {
   font-family: 'northwellregular';
-  src: url('../.fonts/northwell-webfont.woff2') format('woff2'),
-       url('../.fonts/northwell-webfont.woff') format('woff');
+  src: 
+      url(./fonts/Northwell/OTF/Northwell.otf)format('opentype'),
+      url(./fonts/Northwell/TTF/Northwell.ttf)format('ttf');
   font-weight: normal;
   font-style: normal;
+}
+
+/* @media (max-width: 500px){
+  div{
+    font-size: 1em;
+  }
 } */

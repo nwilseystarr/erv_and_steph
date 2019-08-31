@@ -19,19 +19,19 @@ class Registry extends Component {
                 <div className="row">
                     {/*Col One*/}
                     <div className="col">
-                        <a href="https://www.crateandbarrel.com/gift-registry/steph-willding-and-erv-nevitt/r6025869" target="_blank">
+                        <a href="https://www.crateandbarrel.com/gift-registry/steph-willding-and-erv-nevitt/r6025869" target="_blank" rel="noopener noreferrer">
                             <img src={cb} alt=" " />
                         </a>
                     </div>
                     {/*Col Two*/}
                     <div className="col">
-                        <a href="https://www.williams-sonoma.com/m/registry/cwjcnczjn8/registry-list.html" target="_blank">
+                        <a href="https://www.williams-sonoma.com/m/registry/cwjcnczjn8/registry-list.html" target="_blank" rel="noopener noreferrer">
                             <img src={ws} alt=" " />
                         </a>
                     </div>
                     {/*Col Three*/}
                     <div className="col">
-                        <a href="https://www.zola.com/registry/stephanderv" target="_blank">
+                        <a href="https://www.zola.com/registry/stephanderv" target="_blank" rel="noopener noreferrer">
                             <img src={zola} alt=" " />
                         </a>
                     </div>

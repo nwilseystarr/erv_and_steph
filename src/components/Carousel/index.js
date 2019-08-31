@@ -27,16 +27,16 @@ export class Carousel extends Component {
                                         {/* <div className="col-md-3">
                                             <img src={image1} alt=" " />
                                         </div> */}
-                                        <div className="col-md-3">
+                                        <div className="col-md-3 cute">
                                             <img src={image2} alt=" " />
                                         </div>
-                                        <div className="col-md-3">
+                                        <div className="col-md-3 cute">
                                             <img src={image3} alt=" " />
                                         </div>
-                                        <div className="col-md-3">
+                                        <div className="col-md-3 cute">
                                             <img src={image4} alt=" " />
                                         </div>
-                                        <div className="col-md-3">
+                                        <div className="col-md-3 cute">
                                             <img src={image5} alt=" " />
                                         </div>
                                     </div>

@@ -11,4 +11,4 @@ export class WeddingPartyWrapper extends Component {
     }
 }
 
-export default WeddingPartyWrapper
+export default WeddingPartyWrapper;

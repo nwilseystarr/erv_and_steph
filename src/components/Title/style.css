@@ -4,14 +4,16 @@
     font-family: 'Rubik', sans-serif;
 }
 
-.names{
-    font-size: 4rem;
-}
-
-.date{
+.date, .countdown, .names{
     font-size: 1.75rem;
 }
 
-.countdown{
-    font-size: 1.75rem;
+@media (max-width: 500px){
+    .container2, .names, .date, .countdown{
+        font-size: 1rem;
+    }
+    .container2{
+        padding-bottom: 5%;
+        margin-bottom: 5%;
+     }
 }
