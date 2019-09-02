@@ -54,7 +54,7 @@ export class Navbar extends Component {
                                         People We Like
                                     </Link>
                                 </li>
-                                <li className="nav-item">
+                                {/* <li className="nav-item">
                                     <Link
                                         className="nav-link mr-3"
                                         activeClass="active-link"
@@ -66,8 +66,8 @@ export class Navbar extends Component {
                                     >
                                         Where To Stay
                                     </Link>
-                                </li>
-                                <li className="nav-item">
+                                </li> */}
+                                {/* <li className="nav-item">
                                     <Link
                                         className="nav-link mr-3"
                                         activeClass="active-link"
@@ -79,8 +79,8 @@ export class Navbar extends Component {
                                     >
                                         How We Met
                                     </Link>
-                                </li>
-                                <li className="nav-item">
+                                </li> */}
+                                {/* <li className="nav-item">
                                     <Link
                                         className="nav-link mr-3"
                                         activeClass="active-link"
@@ -92,7 +92,7 @@ export class Navbar extends Component {
                                     >
                                         RSVP
                                     </Link>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                     </nav>
