@@ -28,7 +28,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Navbar />
+        <div className="mb-3"> <Navbar /> </div>
         {/* <img className="marginLogo" src={logo} alt="Logo" /> */}
         <Media query="(max-width: 500px)">
           {matches =>
@@ -68,7 +68,7 @@ class App extends Component {
             </div>
           </div>
         </WeddingPartyWrapper> */}
-        <Footer />
+        <div className="pt-2"><Footer /></div>
       </div>
     );
   }
