@@ -15,6 +15,11 @@
     padding: 10px;
 }
 
+.mapImage{
+    max-width: 250px;
+    max-height: 250px;
+}
+
 @media (max-width: 500px){
     .infoText{
         font-size: 1rem;

@@ -36,7 +36,7 @@ class EventWedding extends Component {
 
                     <div className="col">
                         <div className="googleMap">
-                            <img src={googleMap} alt=" " />
+                            <img className="mapImage" src={googleMap} alt=" " />
                         </div>
                     </div>
 

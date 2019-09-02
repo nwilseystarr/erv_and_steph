@@ -9,9 +9,11 @@ import Registry from './components/Registry';
 // import WeddingPartyWrapper from './components/WeddingPartyWrapper';
 // import WeddingParty from './components/WeddingParty';
 import WeddingParty2 from './components/WeddingParty2';
+import About from './components/About';
 import stephPeople from './stephPeople';
 import ervPeople from './ervPeople';
 import Media from "react-media";
+import Footer from './components/Footer';
 // import logo from './logo.png';
 
 class App extends Component {
@@ -42,9 +44,8 @@ class App extends Component {
         <Title />
         <div className="details"> <EventWedding />  </div>
         <div className="registry"> <Registry /></div>
-        <WeddingParty2 className= "p-2">
-
-        </WeddingParty2>
+        <div className="p-2 people"> <WeddingParty2 /> </div>
+        <div className="about"> <About /> </div>
         {/* <WeddingPartyWrapper>
           <div className="row justify-content-md-center weddingParty">
             <div className="col">
@@ -67,6 +68,7 @@ class App extends Component {
             </div>
           </div>
         </WeddingPartyWrapper> */}
+        <Footer />
       </div>
     );
   }

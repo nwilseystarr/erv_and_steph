@@ -17,10 +17,11 @@
 background: #707070;
 }
 
-img {
+.carPic{
     max-width: 250px;
     max-height: 250px; 
 }
+
 /* .carousel{
     width: 50%;
     height: 30%;

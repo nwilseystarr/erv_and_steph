@@ -45,7 +45,7 @@ export class Navbar extends Component {
                                     <Link
                                         className="nav-link mr-3"
                                         activeClass="active-link"
-                                        to="weddingParty2"
+                                        to="people"
                                         smooth={true}
                                         spy={true}
                                         offset={-80}
@@ -67,11 +67,11 @@ export class Navbar extends Component {
                                         Where To Stay
                                     </Link>
                                 </li> */}
-                                {/* <li className="nav-item">
+                                <li className="nav-item">
                                     <Link
                                         className="nav-link mr-3"
                                         activeClass="active-link"
-                                        to="weddingParty"
+                                        to="about"
                                         smooth={true}
                                         spy={true}
                                         offset={-80}
@@ -79,7 +79,7 @@ export class Navbar extends Component {
                                     >
                                         How We Met
                                     </Link>
-                                </li> */}
+                                </li>
                                 {/* <li className="nav-item">
                                     <Link
                                         className="nav-link mr-3"
