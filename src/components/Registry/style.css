@@ -18,3 +18,10 @@
 .sectionTitle{
     font-size: 4rem;
 }
+
+@media (max-width: 500px){
+    .regPic{
+      max-width: 150px;
+      max-height: 150px;
+    }
+  }
