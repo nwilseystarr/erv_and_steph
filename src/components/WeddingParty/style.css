@@ -3,6 +3,7 @@
     color: white;
     margin: 10px;
     padding: 10px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .image{
@@ -12,4 +13,5 @@
 
 .peopleName{
     font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
 }

@@ -2,10 +2,19 @@
     color: white;
     background-color: #172F4A ;
     width: 100%;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
 }
 
 .people{
     text-align: center;
+}
+
+.officiant{
+    text-align: center;
+}
+
+.sectionTitle2{
+    font-family: 'northwellregular';
+    font-size: 2em;
 }

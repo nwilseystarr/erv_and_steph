@@ -6,13 +6,10 @@ class Title extends Component {
     render() {
         return (
             <div className="container2">
-                <div className="date">
-                February 29, 2020 | Chicago, IL
-                </div>
+                <br />
                 <div className="countdown">
-                Only...
                 <Countdown date={`2020-02-29T17:00:00`} />
-                To Go!
+                <br />
                 </div>
             </div>
         )

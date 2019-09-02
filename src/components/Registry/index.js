@@ -11,7 +11,7 @@ class Registry extends Component {
                 <div className="row">
                     <div className="col auto">
                         <div className="sectionTitle mb-5">
-                            Registry Information
+                            Stuff We Want
                         </div>
                     </div>
                 </div>

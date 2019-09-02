@@ -9,27 +9,39 @@ class EventWedding extends Component {
                 <div className="row">
                     <div className="col auto">
                         <div className="sectionTitle">
-                            The Big Day
+                            Show Up Here
                 </div>
                     </div>
                 </div>
+
+                {/*Row Start*/}
                 <div className="row">
+                    {/*Col One*/}
                     <div className="col">
                         <div className="infoText">
                             Feb 29, 2020
                     <br />
                             6:00 PM
                     <br />
-                            Chicago, IL
-                    <br />
+                        </div>
+                        <div className="col">
+                            City View Loft
+                            <br />
+                            324 North Leavitt Street
+                            <br />
+
                         </div>
                     </div>
+
+
                     <div className="col">
                         <div className="googleMap">
                             <img src={googleMap} alt=" " />
                         </div>
                     </div>
+
                 </div>
+
             </div>
         )
     }

@@ -5,43 +5,82 @@ class WeddingParty2 extends Component {
     render() {
         return (
             <div className="container5">
+                <div className="row">
+                    <div className="col auto">
+                        <div className="sectionTitle mb-5">
+                            People We Like
+                        </div>
+                    </div>
+                </div>
                 <div className="row auto">
                     <div className="col auto">
-                            <div className="stephPeople">
-                                <div className="sectionTitle">
-                                    Steph's People
+                        <div className="stephPeople">
+                            <div className="sectionTitle">
+                                Steph's People
                             </div>
-                                Nicole Wilsey Starr
+                            Nicole Wilsey Starr | Best Woman
                                 <br />
-                                Katie Koenig
+                            Eileen Hyde
                                 <br />
-                                Eileen Hyde
+                            Geoff Pettys
                                 <br />
-                                Geoff Pettys
+                            Katie Koenig
                                 <br />
-                                Lauren Finlon
+                            Lauren Finlon
                                 <br />
-                                Courtney Willding
+                            Courtney Willding
+                            <div className="sectionTitle2 mt-3 mb-0">
+                                The Littles
+                            </div>
+                            Maddie Willding-Bell
+                                <br />
+                            Gabbie Borror
+                                 <br />
+                            Michael Bradshaw
+                                 <br />
                         </div>
                     </div>
                     <div className="col auto">
                         <div className="ervPeople">
                             <div className="sectionTitle">
-                                 Erv's People
+                                Erv's People
                             </div>
-                                 Nicole Wilsey Starr
+                            Chad Nevitt | Best Man
                                 <br />
-                                Katie Koenig
+                            Tommy Sellers
                                 <br />
-                                Eileen Hyde
+                            Adam Kessler
                                 <br />
-                                Geoff Pettys
+                            Jeff Hampton
                                 <br />
-                                Lauren Finlon
+                            Taylor Groth
                                 <br />
-                                Courtney Willding
+                            Steve Blecha
+                                <br />
+                            <div className="sectionTitle2 mt-3 mb-0">
+                                Ushers
                             </div>
+                            Doug Dirschl
+                                <br />
+                            Chase Hayes
+                                 <br />
                         </div>
+                    </div>
+                </div>
+                <div className="row auto officiant">
+                    <div className="col auto">
+                        <div className="sectionTitle2 mt-3 mb-0">
+                            Officiant
+                    </div>
+                        Blake Vance
+                    <div className="sectionTitle2 mt-3 mb-0">
+                            Fur People
+                    </div>
+                        Jezebel Marie Willding
+                        <br />
+                        Cooper Jay Willding
+                        <br />
+                    </div>
                 </div>
             </div>
         )

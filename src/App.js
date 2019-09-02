@@ -6,8 +6,8 @@ import image2 from './components/Carousel/image2.png';
 import Title from './components/Title';
 import EventWedding from './components/EventWedding';
 import Registry from './components/Registry';
-import WeddingPartyWrapper from './components/WeddingPartyWrapper';
-import WeddingParty from './components/WeddingParty';
+// import WeddingPartyWrapper from './components/WeddingPartyWrapper';
+// import WeddingParty from './components/WeddingParty';
 import WeddingParty2 from './components/WeddingParty2';
 import stephPeople from './stephPeople';
 import ervPeople from './ervPeople';
@@ -42,7 +42,9 @@ class App extends Component {
         <Title />
         <div className="details"> <EventWedding />  </div>
         <div className="registry"> <Registry /></div>
-        <WeddingParty2></WeddingParty2>
+        <WeddingParty2 className= "p-2">
+
+        </WeddingParty2>
         {/* <WeddingPartyWrapper>
           <div className="row justify-content-md-center weddingParty">
             <div className="col">

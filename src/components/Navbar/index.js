@@ -25,7 +25,7 @@ export class Navbar extends Component {
                                         offset={-120}
                                         duration={500}
                                     >
-                                        Details
+                                        Show Up Here
                                     </Link>
                                 </li>
                                 <li className="nav-item">
@@ -38,7 +38,20 @@ export class Navbar extends Component {
                                         offset={-80}
                                         duration={500}
                                     >
-                                        Registry
+                                        Stuff We Want
+                                    </Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link
+                                        className="nav-link mr-3"
+                                        activeClass="active-link"
+                                        to="weddingParty2"
+                                        smooth={true}
+                                        spy={true}
+                                        offset={-80}
+                                        duration={500}
+                                    >
+                                        People We Like
                                     </Link>
                                 </li>
                                 <li className="nav-item">
@@ -51,7 +64,33 @@ export class Navbar extends Component {
                                         offset={-80}
                                         duration={500}
                                     >
-                                        Wedding Party
+                                        Where To Stay
+                                    </Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link
+                                        className="nav-link mr-3"
+                                        activeClass="active-link"
+                                        to="weddingParty"
+                                        smooth={true}
+                                        spy={true}
+                                        offset={-80}
+                                        duration={500}
+                                    >
+                                        How We Met
+                                    </Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link
+                                        className="nav-link mr-3"
+                                        activeClass="active-link"
+                                        to="weddingParty"
+                                        smooth={true}
+                                        spy={true}
+                                        offset={-80}
+                                        duration={500}
+                                    >
+                                        RSVP
                                     </Link>
                                 </li>
                             </ul>
