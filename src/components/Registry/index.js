@@ -7,7 +7,7 @@ import zola from './zola.png';
 class Registry extends Component {
     render() {
         return (
-            <div className="container4">
+            <div className="container4 p-3">
                 <div className="row">
                     <div className="col auto">
                         <div className="sectionTitle mb-5">

@@ -1,0 +1,28 @@
+.container6{
+    color: white;
+    background-color: #172F4A;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+
+.regPic{
+    height: 250px;
+    width: 250px;
+}
+
+.info{
+    font-size: 2.5rem;
+    padding: 10px;
+}
+
+.sectionTitle{
+    font-size: 4rem;
+}
+
+@media (max-width: 500px){
+    .regPic{
+      max-width: 150px;
+      max-height: 150px;
+    }
+  }

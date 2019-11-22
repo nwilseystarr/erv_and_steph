@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import './style.css';
-import googleMap from './googleMap.png';
+import Iframe from 'react-iframe'
 
 class EventWedding extends Component {
     render() {
         return (
-            <div className="container3">
+            <div className="container3 p-3">
                 <div className="row">
                     <div className="col auto">
                         <div className="sectionTitle">
@@ -35,9 +35,13 @@ class EventWedding extends Component {
 
 
                     <div className="col">
-                        <div className="googleMap">
-                            <img className="mapImage" src={googleMap} alt=" " />
-                        </div>
+                        <Iframe url="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJceAywUgtDogRcQNBaHctHf0&key=AIzaSyDWuujEpICMd46OjgmU8_N6M54_X6WtCdg"
+                        width='350'
+                        height='250'
+                        id='gmaps'
+                        className='googleMap'
+                        display='initial'
+                        position='relative'/>
                     </div>
 
                 </div>

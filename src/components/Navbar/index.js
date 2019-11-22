@@ -9,7 +9,7 @@ export class Navbar extends Component {
                         <nav className="navbar navbar-expand-md navbar-light fixed-top border-bottom p-1 pr-3">
                         <a className="navbar-brand py-0" href="/">
                         <div className="sectionTitle">
-                            Erv & Steph
+                            Erv &amp; Steph
                 </div>
                             {/* <img src={logo} width="70" height="70" className="d-inline-block align-top" alt="S&amp;E" /> */}
                         </a>
@@ -45,6 +45,19 @@ export class Navbar extends Component {
                                     <Link
                                         className="nav-link mr-3"
                                         activeClass="active-link"
+                                        to="wheretostay"
+                                        smooth={true}
+                                        spy={true}
+                                        offset={-80}
+                                        duration={500}
+                                    >
+                                        Where To Stay
+                                    </Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link
+                                        className="nav-link mr-3"
+                                        activeClass="active-link"
                                         to="people"
                                         smooth={true}
                                         spy={true}
@@ -54,19 +67,6 @@ export class Navbar extends Component {
                                         People We Like
                                     </Link>
                                 </li>
-                                {/* <li className="nav-item">
-                                    <Link
-                                        className="nav-link mr-3"
-                                        activeClass="active-link"
-                                        to="weddingParty"
-                                        smooth={true}
-                                        spy={true}
-                                        offset={-80}
-                                        duration={500}
-                                    >
-                                        Where To Stay
-                                    </Link>
-                                </li> */}
                                 <li className="nav-item">
                                     <Link
                                         className="nav-link mr-3"

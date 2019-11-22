@@ -14,6 +14,7 @@ import stephPeople from './stephPeople';
 import ervPeople from './ervPeople';
 import Media from "react-media";
 import Footer from './components/Footer';
+import WhereToStay from './components/WhereToSay';
 // import logo from './logo.png';
 
 class App extends Component {
@@ -44,6 +45,7 @@ class App extends Component {
         <Title />
         <div className="details"> <EventWedding />  </div>
         <div className="registry"> <Registry /></div>
+        <div className="wheretostay"> <WhereToStay /></div>
         <div className="p-2 people"> <WeddingParty2 /> </div>
         <div className="about"> <About /> </div>
         {/* <WeddingPartyWrapper>

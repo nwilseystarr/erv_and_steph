@@ -9,7 +9,7 @@ import image5 from './image5.png';
 export class Carousel extends Component {
     render() {
         return (
-            <div className="container">
+            <div className="container p-3">
                 <div className="row blog">
                     <div className="col-md-12">
                         <div id="blogCarousel" className="carousel slide" data-ride="carousel">

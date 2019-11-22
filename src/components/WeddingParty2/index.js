@@ -4,7 +4,7 @@ import './style.css';
 class WeddingParty2 extends Component {
     render() {
         return (
-            <div className="container5">
+            <div className="container5 p-3">
                 <div className="row">
                     <div className="col auto">
                         <div className="sectionTitle mb-5">

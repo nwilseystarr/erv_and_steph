@@ -5,7 +5,7 @@ import kindergarten from './kindergarten.png';
 export class About extends Component {
     render() {
         return (
-            <div>
+            <div className='container7'>
                 <div className='sectionTitle'>
                     How We Met
             </div>
