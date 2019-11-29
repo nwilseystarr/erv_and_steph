@@ -4,6 +4,8 @@ import Iframe from 'react-iframe'
 
 class EventWedding extends Component {
     render() {
+        const API_KEY = process.env.REACT_APP_GOOGLE_API_KEY;
+
         return (
             <div className="container3 p-3">
                 <div className="row">
@@ -35,7 +37,7 @@ class EventWedding extends Component {
 
 
                     <div className="col">
-                        <Iframe url="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJceAywUgtDogRcQNBaHctHf0&key=AIzaSyDWuujEpICMd46OjgmU8_N6M54_X6WtCdg"
+                        <Iframe url={`https://www.google.com/maps/embed/v1/place?q=place_id:ChIJceAywUgtDogRcQNBaHctHf0&key=${API_KEY}`}
                         width='350'
                         height='250'
                         id='gmaps'

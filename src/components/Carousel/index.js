@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import './style.css';
 // import image1 from './image1.jpg';
+import image1 from './image1.png';
 import image2 from './image2.png';
 import image3 from './image3.png';
 import image4 from './image4.png';
-import image5 from './image5.png';
 
 export class Carousel extends Component {
     render() {
@@ -28,16 +28,16 @@ export class Carousel extends Component {
                                             <img src={image1} alt=" " />
                                         </div> */}
                                         <div className="col-md-3">
-                                            <img className="carPic" src={image2} alt=" " />
+                                            <img className="carPic" src={image1} alt=" " />
                                         </div>
                                         <div className="col-md-3 cute image3">
+                                            <img className="carPic" src={image2} alt=" " />
+                                        </div>
+                                        <div className="col-md-3 cute">
                                             <img className="carPic" src={image3} alt=" " />
                                         </div>
                                         <div className="col-md-3 cute">
                                             <img className="carPic" src={image4} alt=" " />
-                                        </div>
-                                        <div className="col-md-3 cute">
-                                            <img className="carPic" src={image5} alt=" " />
                                         </div>
                                     </div>
                                     {/* <!--.row--> */}
