@@ -29,7 +29,9 @@ class EventWedding extends Component {
                         <div className="col">
                             City View Loft
                             <br />
-                            324 North Leavitt Street
+                            327 North Bell Avenue
+                            <br />
+                            Chicago, IL
                             <br />
 
                         </div>
@@ -37,7 +39,7 @@ class EventWedding extends Component {
 
 
                     <div className="col">
-                        <Iframe url={`https://www.google.com/maps/embed/v1/place?q=place_id:ChIJceAywUgtDogRcQNBaHctHf0&key=${API_KEY}`}
+                        <Iframe url={`https://www.google.com/maps/embed/v1/place?q=place_id:ChIJL5yctUgtDogRRiUHhy5qxik&key=${API_KEY}`}
                         width='350'
                         height='250'
                         id='gmaps'
