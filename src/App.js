@@ -15,6 +15,7 @@ import ervPeople from './ervPeople';
 import Media from "react-media";
 import Footer from './components/Footer';
 import WhereToStay from './components/WhereToSay';
+import Rsvp from './components/Rsvp';
 // import logo from './logo.png';
 
 class App extends Component {
@@ -43,33 +44,12 @@ class App extends Component {
           }
         </Media>
         <Title />
+        <div className="rsvp"><Rsvp /></div>
         <div className="details"> <EventWedding />  </div>
         <div className="registry"> <Registry /></div>
         <div className="wheretostay"> <WhereToStay /></div>
         <div className="p-2 people"> <WeddingParty2 /> </div>
         <div className="about"> <About /> </div>
-        {/* <WeddingPartyWrapper>
-          <div className="row justify-content-md-center weddingParty">
-            <div className="col">
-              {this.state.stephPeople.map(stephPeople => (
-                <WeddingParty
-                  key={stephPeople.id}
-                  id={stephPeople.id}
-                  name={stephPeople.name}
-                  image={stephPeople.image} />
-              ))}
-            </div>
-            <div className="col">
-              {this.state.ervPeople.map(ervPeople => (
-                <WeddingParty
-                  key={ervPeople.id}
-                  id={ervPeople.id}
-                  name={ervPeople.name}
-                  image={ervPeople.image} />
-              ))}
-            </div>
-          </div>
-        </WeddingPartyWrapper> */}
         <div className="pt-2"><Footer /></div>
       </div>
     );
