@@ -9,7 +9,7 @@ class Rsvp extends Component {
                 <div className="row">
                     <div className="col">
                     <div className="sectionTitle mb-5">
-                        <a class="btn btn-secondary btn-lg btn-block" href="http://ervandsteph.rsvpify.com">RSVP Here</a>
+                        <a className="btn btn-secondary btn-lg btn-block" href="http://ervandsteph.rsvpify.com">Click here to RSVP by Jan 15th</a>
                     </div>
                     </div>
                 </div>

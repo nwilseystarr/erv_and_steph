@@ -16,6 +16,9 @@ export class Navbar extends Component {
                         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                             <ul className="navbar-nav ml-2">
                                 <li className="nav-item">
+                                <a className="nav-link mr-3" href="http://ervandsteph.rsvpify.com">RSVP</a>
+                                </li>
+                                <li className="nav-item">
                                     <Link
                                         className="nav-link mr-3"
                                         activeClass="active-link"
@@ -80,19 +83,6 @@ export class Navbar extends Component {
                                         How We Met
                                     </Link>
                                 </li>
-                                {/* <li className="nav-item">
-                                    <Link
-                                        className="nav-link mr-3"
-                                        activeClass="active-link"
-                                        to="weddingParty"
-                                        smooth={true}
-                                        spy={true}
-                                        offset={-80}
-                                        duration={500}
-                                    >
-                                        RSVP
-                                    </Link>
-                                </li> */}
                             </ul>
                         </div>
                     </nav>
