@@ -32,6 +32,19 @@ export class Navbar extends Component {
                                     </Link>
                                 </li>
                                 <li className="nav-item">
+                                    <Link 
+                                        className="nav-link mr-3"
+                                        activeClass="active-link"
+                                        to="parkingAndTransport"
+                                        smooth={true}
+                                        spy={true}
+                                        offset={-80}
+                                        duration={500}
+                                    >
+                                        Parking And Transportation
+                                    </Link>
+                                </li>
+                                <li className="nav-item">
                                     <Link
                                         className="nav-link mr-3"
                                         activeClass="active-link"
