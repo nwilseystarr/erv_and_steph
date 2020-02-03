@@ -15,7 +15,7 @@ import ervPeople from './ervPeople';
 import Media from "react-media";
 import Footer from './components/Footer';
 import WhereToStay from './components/WhereToSay';
-import Rsvp from './components/Rsvp';
+// import Rsvp from './components/Rsvp';
 import ParkingAndTransport from './components/ParkingAndTransport';
 // import logo from './logo.png';
 
@@ -45,7 +45,7 @@ class App extends Component {
           }
         </Media>
         <Title />
-        <div className="rsvp"><Rsvp /></div>
+        {/* <div className="rsvp"><Rsvp /></div> */}
         <div className="details"> <EventWedding />  </div>
         <div className="parkingAndTransport"> <ParkingAndTransport /> </div>
         <div className="registry"> <Registry /></div>
